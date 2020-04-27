@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: cornsilk;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-family: monospace;
+}
+
+.form-register {
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+    background: aliceblue;
+    border-radius: 7px;
+}
+
+.contenedor-imputs {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    input {
+        margin-bottom: 15px;
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 3px;
+        border: 1px solid gainsboro;
+    }
+    
+    .input-50 {
+        width: 80%;
+        
+    }
+    
+    .input-100 {
+        width: 80%;
+        
+    }
+    .boton-enviar {
+        width: 100%;
+       text-align: center;
+        background: red;
+        color: white;
+        margin: auto;
+        padding: 20px 50px;
+        cursor: pointer;
+        font-size: 20px;
+        
+    }
+    
+    .boton-enviar:active{
+        transform: scale(1.05)
+    }
+
